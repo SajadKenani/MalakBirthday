@@ -37,7 +37,7 @@ const corsOptions = {
   credentials: true,
   optionsSuccessStatus: 204,
 };
-app.use(cors(corsOptions));
+app.use(cors());
 
 // Connect to MySQL database
 db_connect.connect((err) => {
