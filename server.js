@@ -20,7 +20,7 @@ import settingsRoutes from "./api/routes/settingsRoutes.js";
 const app = express();
 const server = http.createServer(app);
 expressWs(app, server);
-const PORT = process.env.PORT || 3001;
+const PORT = 3000;
 
 // Setup necessary utilities for ES modules
 const __filename = fileURLToPath(import.meta.url);
