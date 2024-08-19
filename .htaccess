@@ -1,0 +1,7 @@
+<IfModule mod_headers.c> 
+ Header always set Access-Control-Allow-Origin "*"
+ Header always set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, PATCH, OPTIONS"
+ Header always set Access-Control-Max-Age "1000"
+ Header always set Access-Control-Allow-Headers "Origin, Accept, Accept-  Version,  Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, x-api-key, X-Response-Time, X-PINGOTHER, X-CSRF-Token,Authorization"
+ Header always set Access-Control-Expose-Headers "*"
+</IfModule>
